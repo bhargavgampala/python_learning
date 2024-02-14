@@ -1,0 +1,7 @@
+b = input("What's your first name? ")
+g = input("What's your Last name? ")
+print(b)
+print(g)
+# print(int(b) + int(g))
+print (f"{b g}")
+print(type(b))
