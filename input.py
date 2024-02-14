@@ -67,6 +67,6 @@ print("##################################")
 name = name.strip().title()
 print(f"hello, {name}")
 print("##################################")
-# we can use stripe and title directly at input
+# we can use stripe and title directly at input funtion
 name = input("What's your name?").strip().title()
 print(f"hello, {name}")

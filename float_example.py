@@ -20,10 +20,6 @@ print("##################################")
 
 a = float(input("what's a? "))
 b = float(input("What's b? "))
-
-
-
-# other way
 z = a / b
 print(z)
 print("##################################")
@@ -31,5 +27,7 @@ print("##################################")
 z = round(a / b, 2)
 print(z)
 print("##################################")
+# other way
+# according to the documentation, the way you specify using an F string how many digits you want to print.
 print(f"{z:.2f}")
 

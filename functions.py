@@ -47,6 +47,8 @@ hello1(name1)
 # So Name is essentially copied to another variable called
 # To so that in the context of Hello, I can say Hello to that variable instead.
 
+
+
 # What if you wanted your Hello function to say Hello to someone specific,
 # but, you know what, if you don't know who you want to say Hello to,
 # you want to say Hello to the whole world,
@@ -60,3 +62,5 @@ def hello2(to="world"):
 hello2()
 name2 = input("What's your name2?")
 hello2(name2)
+
+#  if you use a function, it must already exist by the time you are calling it.
